@@ -1,7 +1,7 @@
 var readlinesync=require("readline-sync");
 var chalk=require("chalk")
 // begining of the game 
-console.log(chalk.bgCyan('Welcome to the "HOW WELL YOU KNOW QUIZ!" "YOU NEED 3 POINTS for 2ND LEVEL"'));
+console.log(chalk.bgCyan('Welcome to the "HOW WELL YOU KNOW QUIZ!" "YOU NEED "3 POINTS" for 2ND LEVEL"'));
 
 // starting the game
 var wantPlay=readlinesync.question("Do you want to play?(yes/no):")
